@@ -148,7 +148,7 @@ public class DragBubbleHelper implements View.OnTouchListener {
     }
 
     /**
-     * 通过反射获取WindowManager中的 Window 变量
+     * 通过反射获取 WindowManager 中的 Window 变量
      *
      * @param windowManager
      * @return
