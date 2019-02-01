@@ -1,9 +1,13 @@
 ### DragBubbleMessage
-本项目是模仿QQ中的消息拖拽的功能，作用的对象可以是任意的`View`，实现QQ中的消息提示全屏拖拽删除，拖拽距离不够时自动回弹的效果；
+本项目是模仿QQ中的消息拖拽的功能，作用的对象可以是任意的`View`，实现QQ中的消息提示全屏拖拽删除，拖拽距离不够时自动回弹的效果，[项目地址](https://github.com/hewenyuAndroid/DragBubbleMessage);
 
 ### 效果图
 ![拖拽回弹](https://github.com/hewenyuAndroid/DragBubbleMessage/blob/master/screen/rollback.gif?raw=true)
 ![拖拽爆炸](https://github.com/hewenyuAndroid/DragBubbleMessage/blob/master/screen/explosion.gif?raw=true)
+
+
+[点我下载](https://github.com/hewenyuAndroid/DragBubbleMessage/blob/master/apk/app-debug.apk)安装包；
+
 
 ### 引用地址
 > compile 'com.hewenyu:DragBubble:1.0'
