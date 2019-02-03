@@ -55,7 +55,7 @@ public class DragBubbleUtil {
     }
 
     /**
-     * 根据分度值，计算从start到end中，fraction位置的值。fraction范围为0 -> 1
+     * 根据分度值，计算从start到end中，fraction位置的值。fraction范围为0 - 1
      *
      * @param fraction = 1
      * @param start    = 10

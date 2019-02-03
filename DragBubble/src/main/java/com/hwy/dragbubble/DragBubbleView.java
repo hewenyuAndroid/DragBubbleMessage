@@ -7,7 +7,6 @@ import android.graphics.Color;
 import android.graphics.Paint;
 import android.graphics.Path;
 import android.graphics.PointF;
-import android.support.annotation.Nullable;
 import android.util.AttributeSet;
 import android.util.TypedValue;
 import android.view.View;
@@ -77,11 +76,11 @@ public class DragBubbleView extends View {
         this(context, null);
     }
 
-    public DragBubbleView(Context context, @Nullable AttributeSet attrs) {
+    public DragBubbleView(Context context, AttributeSet attrs) {
         this(context, attrs, 0);
     }
 
-    public DragBubbleView(Context context, @Nullable AttributeSet attrs, int defStyleAttr) {
+    public DragBubbleView(Context context, AttributeSet attrs, int defStyleAttr) {
         super(context, attrs, defStyleAttr);
         mFixedRadius = dipToPx(mFixedRadius);
         mDragRadius = dipToPx(mDragRadius);
